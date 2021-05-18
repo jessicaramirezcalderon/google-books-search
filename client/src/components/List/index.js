@@ -14,3 +14,11 @@ export function List({ children }) {
 export function ListItem({ children }) {
   return <li className="list-group-item">{children}</li>;
 }
+
+export function Description({ children }) {
+  return <p>{children}</p>;
+}
+
+export function Add({ children }) {
+  return <button type="button" class="btn btn-info">{children}</button>;
+}
